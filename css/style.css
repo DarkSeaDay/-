@@ -1,0 +1,409 @@
+*{padding: 0;margin: 0;font-family:思源黑体；}
+a{text-decoration: none;}
+em i{font-style: normal;}
+strong b{font-weight: normal;}
+ol,ul,li{list-style:none;}
+.clear{
+	clear: both;
+}
+/*盒子开始*/
+.container{
+	width: 100%;
+	height: auto;
+}/*盒子结束*/
+/*导航开始*/
+.header{
+	width: 100%;
+	height: 8.75rem;
+	background: white;
+}/*导航结束*/
+.topbanner{
+	width: 100%;
+	height: 2.5rem;
+	background: black;
+}
+.topheader{
+	width: 100%;
+	height: 6.25rem;
+	background: white;
+}
+/*导航开始*/
+.nav{
+	width: 76.625rem;
+	height: 40.25rem;
+	margin: 0 auto;
+}
+.nav-list{
+	width: 14.625rem;
+	height: 28.75rem;
+	background: rgba(24,3,4,0.4);
+	float: left;
+}
+/*选项卡开始*/
+.nav-box-ul{
+	width: 100%;
+	height: 28.75rem;
+}
+.li-title{
+	color: #B0B0B0;
+	display: block;
+	width: 91%;
+	height: 2.625rem;
+	background: #000000;
+	line-height: 2.625rem;
+	padding-left: 1.25rem;
+	float: left;
+}
+.li-title:hover{
+	background: #40E0D0;
+}
+a.li-title span.span{
+	float: right;
+	font-size: 1.5rem;
+	margin-right: 2rem;
+}
+/*选项卡结束*/
+/*选项卡隐藏区域开始*/
+.box-ul-li{
+	position: relative;
+	
+}
+.hidnav1{
+	width: 15.625rem;
+	height: 28.75rem;
+	position: absolute;
+	left:14.625rem ;
+	display: none;
+}
+.li-title:hover+.hidnav1{
+	display: block;
+}
+.hidnav1-ul{
+	width: 15.625rem;
+	height: 28.75rem;
+}
+.hidnav1-ul li{
+	width: 15.625rem;
+	height: 4rem;
+	border: 1px solid black;
+}
+.hidnav1-link{
+	display: block;
+	width: 9.375rem;
+	height: 2.5rem;
+	margin: 1rem 2rem;
+}
+.hidnav1-link img{
+	width: 2.5rem;
+	height: 2.5rem;
+	float: left;
+}
+.hidnav1-link span{
+	width: 5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	color: black;
+}
+
+/*选项卡隐藏区域结束*/
+/*导航列表*/
+.nav-img{
+	width: 100%;
+	height: 28.75rem;
+	background: red;
+}
+.nav-img-list{
+	display: block;
+	width: 76.625rem;
+	height: 28.75rem;
+	background-image:url(../img/lunbo1.jpg);
+	background-size: 100%;
+}
+/*导航轮播图*/
+.nav-type{
+	width: 76.625rem;
+	height: 10.625rem;
+	margin-top: 0.875rem;
+}
+.nav-type-box1{
+	width: 14.625rem;
+	height: 10.625rem;
+	background: #5f5750;
+	float: left;
+}
+.box1-list{
+	width: 14.625rem;
+	height: 10.625rem;
+}
+.box1-list li{
+	width: 4.375rem;
+	height: 5.125rem;
+	float: left;
+	margin: 0rem 0.1875rem;
+	text-align: center;
+}
+.li-link{
+	display: block;
+	height: 4rem;
+	margin-top: 0.625rem;
+	color: whitesmoke;
+}
+.nav-type-box2{
+	width: 61.875rem;
+	height: 10.625rem;
+	float: right;
+}
+.box1-type{
+	width: 19.75rem;
+	height: 10.625rem;
+	float:right;
+	margin-right: 0rem;
+}
+.box2-type{
+	width: 19.75rem;
+	height: 10.625rem;
+	float:right;
+	margin-right: 0.875rem;
+}
+.box3-type{
+	width: 19.75rem;
+	height: 10.625rem;
+	float:right;
+	margin-right: 0.875rem;
+}
+.box1-type a img{
+	width: 100%;
+}
+.box2-type a img{
+	width: 100%;
+}
+.box3-type a img{
+	width: 100%;
+}
+/*导航结束*/
+/*主体开始*/
+.body{
+	width: 76.625rem;
+	margin: 0 auto;
+}
+.box1{width: 76.625rem;
+height: 34.875rem;
+}/*盒子一*/
+.body-top{
+	width: 76.625rem;
+	height: 3.625rem;
+}
+.top-h2{
+	float: left;
+	line-height: 3.625rem;
+}
+.more{
+	float: right;
+	width: 4.875rem;
+	height: 1.5rem;
+	border: 0.0625rem solid #000000;
+}
+.more-a1{
+	display: block;
+	width: 2.25rem;
+	height: 1.5rem;
+	border: 0.0625rem solid #008000;
+	float: left;
+	line-height: 1.5
+	margin:0.75rem 0rem;
+	text-align: center;
+}
+.more-a2{
+	display: block;
+	width: 2.25rem;
+	height: 1.5rem;
+	border: 0.0625rem solid #008000;
+	float: left;
+	text-align: center;
+}
+/*盒子一头部*/
+.body-center{
+	width: 77.5rem;
+	height: 23.75rem;
+}
+.center-box1{
+	width: 14.625rem;
+	height: 21.25rem;
+	border: 0.0625rem solid #434343;
+	float: left;
+	background: rgb(242,237,236);
+	text-align: center;
+	border-top: 0.0625rem solid red;
+}
+.box1-chang{
+	text-align: center;
+	margin-top: 4rem;
+	font-size: 1.25rem;
+	color: red;
+}
+.center-box1 img{
+	margin: 2rem 0rem;
+}
+.box1-no{
+	color: #708090;
+	font-size: 0.9375rem;
+	margin: 0.625rem 0rem;
+}
+.box1-li{
+	color: lightpink;
+	font-size: 0.9375rem;
+	width: 10.625rem;
+	height: 2.875rem;
+	border: 0.0625rem solid plum;
+	margin: 0 auto;
+}
+div.list-odd,div.list-even{
+	float: left;
+	line-height: 2.875rem;
+	font-size: 1.5rem;
+}
+.list-odd{
+	width: 2.875rem;
+	height: 2.875rem;
+	background: #333333;
+	color: #FFFFFF;
+}
+.list-even{
+	width: 0.9375rem;
+	height: 2.875rem;
+}
+.center-box2{
+	width: 62rem;
+	height: 21.25rem;
+	float: right;
+}
+.box2-list{
+	width: 14.625rem;
+	height: 21.25rem;
+	background: white;
+	float: left;
+	margin-right: 0.875rem;
+	text-align: center;
+	border-top:0.0625rem solid blue;
+}
+.box2-link{
+	display: block;
+	width: 14.625rem;
+	height: 21.25rem;
+	padding-top: 1.5rem;
+	color: #b0b0b0;
+	font-size: 0.75rem;
+}
+.box2-link img{
+	width: 80%;
+}
+.box2-title{
+	font-size: 0.875rem;
+	color: black;
+}
+.box2-title{
+	color: orangered;
+}
+.del{
+	color: #008000;
+}
+p{
+	font-size: 0.75rem;
+	margin-top: 1rem;
+}/*盒子一中部*/
+.body-bottom{
+	width: 76.625rem;
+	height: 7.5rem;
+	margin: 0 auto;
+}
+.body-bottom img{
+	width: 100%;
+}
+/*盒子一尾部*/
+/*主体结束*/
+/*页脚开始*/
+.footer{
+	width: 76.625rem;
+	height: 17rem;
+	margin: 3rem auto;
+}/*页脚整体*/
+.footer-service{
+	width: 76.625rem;
+	height: 12rem;
+	background: #fff;
+	border-bottom: 0.0625rem solid darkgray;
+}
+.footer-service ul{
+	width: 76.625rem;
+	height: 5rem;
+	text-align: center;
+	padding: 1.25rem 0rem;
+	font-size: 1.3125rem;
+}
+.footer-service ul li{
+	float: left;
+	width: 15rem;
+	height: 1.5625rem;
+	border-right: 0.0625rem solid grey;
+	margin: auto 0;
+}
+.footer-service-link{
+	color: grey;
+}
+.last{
+	border: none;
+}
+/*页脚服务*/
+.footer-link{
+	width: 76.625rem;
+	height: 12rem;
+}
+.col{
+	float: left;
+	width: 10rem;
+	height: 7rem;
+	margin: 1.25rem 0rem;
+}
+.col-link dt{
+	color: black;
+	margin: 1.5625rem 0;
+}
+.col-link dd{
+	font-size: 0.75rem;
+	margin: 0.5rem 0rem;
+}
+.col-link dd a{
+	color: #757575;
+}
+.col-right{
+	width: 15.75rem;
+	height: 7rem;
+	float: right;
+	border-left: 0.0625rem solid #757575;
+	margin: 2.5rem 0;
+	text-align: center;
+}
+.right-tel{
+	font-size: 1.25rem;
+	color: orangered;
+	margin-top: 0rem;
+}
+.right-time{
+	color: #757575;
+	margin-bottom: 1rem;
+}
+.right-ser{
+	width: 7.5rem;
+	height: 1.875rem;
+	border: 0.0625rem solid orangered;
+	margin: 0 auto;
+}
+.right-ser a{
+	display: block;
+	width: 7.5rem;
+	height: 1.875rem;
+	color: orangered;
+	line-height: 1.875rem;
+}
+/*页脚链接*/
+/*页脚结束*/
